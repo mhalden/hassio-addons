@@ -22,7 +22,7 @@ user-agent = {{user_agent}}{{/user_agent}}
     user-agent       = "{{user_agent}}"{{/user_agent}}{{#wildcard}}
     wildcard         = "{{wildcard}}"{{/wildcard}}{{#ddns_server}}
     ddns-server      = "{{ddns_server}}"{{/ddns_server}}{{#ddns_path}}
-    ddns-path        = "{{ddns_path}}"{{/ddns_path}}{{#append_myip}}
+    ddns-path        = "{{& ddns_path}}"{{/ddns_path}}{{#append_myip}}
     append-myip      = "{{append_myip}}"{{/append_myip}}
 }
 {{/providers}}
